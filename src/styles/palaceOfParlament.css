@@ -1,0 +1,67 @@
+.parlament-title {
+    position: relative;
+    bottom: 242px;
+    left: 360px;
+    font-weight: 700;
+}
+
+.parlament {
+    position: relative;
+    bottom: 635px;
+    left: 360px;
+    height: 350px;
+    width: 500px;
+    border: solid 3px black;
+}
+
+.parlament-vert-r {
+    border-left: 1.5px solid black;
+    height: 500px;
+    position: absolute;
+    bottom: -520px;
+    left: 65%;
+}
+
+.parlament-description {
+    position: relative;
+    bottom: 600px;
+    left: 360px;
+}
+
+.horizontal-parlament {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .parlament-vert-r {
+        display: none;
+    }
+    
+    .parlament {
+        position: absolute;
+        bottom: -233%;
+        left: 25px;
+        width: 320px;
+        height: 300px;
+    }
+
+    .parlament-title {
+        position: absolute;
+        bottom: -239%; 
+        left: 20px;  
+    }
+
+    .parlament-description {
+        position: absolute;
+        bottom: -262%; 
+        left: 30px;  
+    }
+
+    .horizontal-parlament {
+        display: block;
+        position: relative;
+        bottom: -1500px;
+
+    }
+
+}

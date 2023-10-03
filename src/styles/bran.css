@@ -1,0 +1,71 @@
+
+.title {
+    position: relative;
+    left: 80px;
+    font-weight: 700;
+}
+
+
+.vl-r, .vl-l {
+    border-left: 1.5px solid black;
+    height: 500px;
+    position: absolute;
+    top: 240px;
+
+}
+
+.vl-l {
+  left: 6%;
+}
+
+.vl-r {
+  left: 30%;
+
+}
+
+.castel {
+    height: 200px;
+    width: 300px;
+    margin: 15px 15px;
+}
+
+.horizontal-line-top, .horizontal-line-bottom {
+    position: relative;
+} 
+
+.horizontal-line-top {
+  top: -5px;
+}
+
+.horizontal-line-bottom {
+  top: 45px;
+}
+
+@media screen and (max-width: 480px) {
+  .castel {
+    width: 250px;
+    height: 200px;
+    margin: 20px 45px;
+  }
+
+  .vl-l, .vl-r {
+    display: none;
+  }
+
+  .horizontal-line-top, .horizontal-line-bottom  {
+  left: -10px;
+  top: 20px ;
+}
+
+.title {
+  left: 100px;
+  top: 10px;
+}
+
+.bran-description {
+  position: relative;
+  left: 12px;
+}
+
+}
+

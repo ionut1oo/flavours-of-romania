@@ -1,0 +1,63 @@
+.peles-castel {
+    height: 350px;
+    width: 500px;
+    border: solid 3px black;
+    position: absolute;
+    top: 32%;
+    left: 31%;
+}
+
+.vertical-line {
+    border-left: 1.5px solid black;
+    height: 500px;
+    position: absolute;
+    left: 65%;
+    top: 240px;
+}
+
+.description {
+    position: relative;
+    bottom: 130px;
+    left: 360px;
+}
+
+.title-peles {
+    position: relative;
+    top: 5px;
+    font-weight: 700;
+}
+
+.horizontal-peles {
+    display: none; 
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .peles-castel  {
+        top: 89%;
+        left: 7%;
+        width: 320px;
+        height: 300px;
+    }
+
+    .vertical-line  {
+        display: none;
+    }
+
+
+    .title-peles {
+        top: -10px;
+        left: -12px;
+    }
+    
+    .description {
+        top: 380px;
+        left: 12px;
+        
+    }
+    
+    .horizontal-peles {
+        display: block; 
+}
+}

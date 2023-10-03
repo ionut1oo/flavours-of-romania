@@ -1,0 +1,72 @@
+.cemetery-title {
+        position: absolute;
+        bottom: -75px;
+        right: 200px;
+        font-weight: 700;
+}
+
+.cemetery {
+    position:absolute;
+    top: 110%;
+    right: 150px;
+    height: 200px;
+    width: 300px;
+    margin: 15px 15px;
+}
+
+.cemetery-description {
+    position: relative;
+    bottom: 850px;
+    left: 895px;
+}
+
+.cemetery-vertical {
+    border-left: 1.5px solid black;
+    height: 500px;
+    position: absolute;
+    right: 7%;
+    top: 102%;
+    margin-left: -3px;
+
+
+}
+
+.cemetery-hr-top {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .cemetery-vertical {
+        display: none;
+    }
+
+    .cemetery {
+        top: 395%;
+        width: 250px;
+        height: 200px;
+        left: 53px;
+    }
+
+    .cemetery-title {
+        top: 390%;
+        right: 125px;
+    }
+
+    
+.cemetery-description {
+    position: absolute;
+    top: 425%;
+    left: 28px;
+}
+
+.cemetery-hr-top {
+    display: block;
+    position: relative;
+
+}
+
+.cemetery-hr-top {
+    top: 2250px;
+}
+    
+}
