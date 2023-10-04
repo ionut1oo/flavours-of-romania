@@ -1,26 +1,16 @@
 import React from 'react';
-import { Container } from 'react-bootstrap'
-import Header from './Header';
-import Bran from './Bran';
-import Peles from './Peles';
-import Corvinilor from './Corvinilor';
-import Transfagarasan from './Transfagarasan';
-import PalaceOfParlament from './CassaPoporului';
-import Cemetery from './Cemetery';
+import { Container } from 'react-bootstrap';
+import { Route, Routes } from 'react-router-dom';
+import AppRouter from './AppRouter'
 
-
-const App = () => {
-  return (
-    <Container fluid>
-       <Header />
-       <Bran />
-       <Peles />
-       <Corvinilor />
-       <Transfagarasan />
-       <PalaceOfParlament />
-       <Cemetery />
-    </Container>
-  );
+const App= () => {
+    return (
+        <Container fluid>
+            <Routes>
+                <Route path='/' element={<AppRouter />} />
+            </Routes>
+        </Container>
+    )
 }
 
 export default App;

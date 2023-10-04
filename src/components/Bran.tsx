@@ -8,7 +8,7 @@ const Bran = () => {
         <Container>
            <hr className='horizontal-line-top' />
            <h3 className='title'> Bran Castel </h3> 
-           <img className='castel' src='/imgs/bran.jpg' alt='Bran Castel' />
+           <img className='castel' src="/imgs/bran.jpg" alt="Bran Castle" />
            <div className='bran-description'>
              <p> Bran Castle is one of the most popular castles <br /> in Romania. </p>
              <p> The legend of Dracula makes Bran Castle one <br /> of the most sought-after tourist attractions <br /> in the country. </p>

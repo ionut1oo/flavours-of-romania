@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import AppRouter from './components/AppRouter';
+import App from './components/App';
 import { BrowserRouter } from 'react-router-dom';
 
 
@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <AppRouter />
+    <BrowserRouter basename='/ionut1oo/flavours-of-romania'>
+    <App />
     </BrowserRouter>
   </React.StrictMode>
 );
