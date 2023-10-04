@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/flavours-of-romania/static/css/main.a7e36d52.css",
+    "main.css": "/flavours-of-romania/static/css/main.2e8d88c7.css",
     "main.js": "/flavours-of-romania/static/js/main.bcade554.js",
     "index.html": "/flavours-of-romania/index.html",
-    "main.a7e36d52.css.map": "/flavours-of-romania/static/css/main.a7e36d52.css.map",
+    "main.2e8d88c7.css.map": "/flavours-of-romania/static/css/main.2e8d88c7.css.map",
     "main.bcade554.js.map": "/flavours-of-romania/static/js/main.bcade554.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7e36d52.css",
+    "static/css/main.2e8d88c7.css",
     "static/js/main.bcade554.js"
   ]
 }
