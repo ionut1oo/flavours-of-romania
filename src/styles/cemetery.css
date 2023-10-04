@@ -41,21 +41,21 @@
     }
 
     .cemetery {
-        top: 395%;
+        top: 535%;
         width: 250px;
         height: 200px;
         left: 53px;
     }
 
     .cemetery-title {
-        top: 390%;
+        top: 530%;
         right: 125px;
     }
 
     
 .cemetery-description {
     position: absolute;
-    top: 425%;
+    top: 575%;
     left: 28px;
 }
 

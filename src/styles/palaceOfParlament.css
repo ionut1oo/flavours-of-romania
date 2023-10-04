@@ -39,7 +39,7 @@
     
     .parlament {
         position: absolute;
-        bottom: -233%;
+        bottom: -355%;
         left: 25px;
         width: 320px;
         height: 300px;
@@ -47,13 +47,13 @@
 
     .parlament-title {
         position: absolute;
-        bottom: -239%; 
+        bottom: -365%; 
         left: 20px;  
     }
 
     .parlament-description {
         position: absolute;
-        bottom: -262%; 
+        bottom: -400%; 
         left: 30px;  
     }
 

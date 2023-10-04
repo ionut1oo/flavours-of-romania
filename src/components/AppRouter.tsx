@@ -11,7 +11,7 @@ import Cemetery from './Cemetery';
 
 const App = () => {
   return (
-    <Container fluid>
+    <Container>
        <Header />
        <Bran />
        <Peles />

@@ -46,7 +46,7 @@
 
   .transf {
     position: absolute;
-    top: 230%;
+    top: 320%;
     width: 250px;
     height: 200px;
     margin: 20px 45px;
@@ -54,15 +54,15 @@
 
   .transf-title {
     position: absolute;
-    bottom: -130%;
+    bottom: -220%;
     left: 100px;
   }
 
   
 .transf-description {
   position: absolute;
-  bottom: -180%;
-  left: 30px;
+  bottom: -285%;
+  left: 22px;
 }
 
   .transf-horizontal {

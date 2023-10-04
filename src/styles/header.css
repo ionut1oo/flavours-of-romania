@@ -28,12 +28,12 @@ pre {
 @media screen and (max-width: 767px) {
     h1 {
         position: relative;
-        left: 0;
+        left: -10px;
     }
 
     pre {
         position: relative;
-        left: -12px;
+        left: -22px;
     }
 
     .flag {
