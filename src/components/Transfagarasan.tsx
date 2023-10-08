@@ -4,7 +4,7 @@ import '../styles/transfagarasan.css';
 
 const Transfagarasan = () => {
     return (
-        <Container>
+        <Container className='transf-container'>
             <hr className='transfagarasan-horizont-top'/>
             <h3 className='transf-title'> Transfagarasan </h3>
             <img className='transf' src="imgs/transfagarasan.jpg" alt="transfagarasan" />

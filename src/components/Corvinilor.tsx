@@ -13,6 +13,7 @@ const Corvinilor = () => {
              <p> It is considered one of the most beautiful castles <br /> in the  world, being located in the top 10 fairytale <br /> destinations in Europe. </p>
            </div>
            <hr />
+
         </Container>
     )
 }

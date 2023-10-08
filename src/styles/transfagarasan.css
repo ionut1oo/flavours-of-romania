@@ -1,6 +1,7 @@
- .transf-title, .transf {
+ .transf-container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 } 
 
 .transf-title {
@@ -23,4 +24,11 @@
      display: block;
   }
 
+}
+
+@media screen and (min-width:768px) and (max-width: 1399px) {
+  .transf-container {
+    align-items: flex-end;
+      margin-top: -36rem;
+  }
 }
