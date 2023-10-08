@@ -1,63 +1,39 @@
+.peles-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -33rem;
+}
+
 .peles-castel {
-    height: 350px;
-    width: 500px;
-    border: solid 3px black;
-    position: absolute;
-    top: 32%;
-    left: 31%;
-}
-
-.vertical-line {
-    border-left: 1.5px solid black;
-    height: 500px;
-    position: absolute;
-    left: 65%;
-    top: 240px;
-}
-
-.description {
-    position: relative;
-    bottom: 130px;
-    left: 360px;
+    border: 5px solid black;
+    height: 300px;
+    width: 400px;
+    margin: 10px 0;
 }
 
 .title-peles {
-    position: relative;
-    top: 5px;
     font-weight: 700;
 }
 
-.horizontal-peles {
-    display: none; 
+
+.peles-horizontal {
+    display: none;
 }
 
-
-
-@media screen and (max-width: 480px) {
-    .peles-castel  {
-        top: 130%;
-        left: 7%;
-        width: 320px;
-        height: 300px;
+  @media screen and (max-width: 767px) {
+    .peles-castel {
+        width: 300px;
+        justify-content: center;
     }
 
-    .vertical-line  {
-        display: none;
+    .peles-container{
+      margin-top: 0;
+      align-items: flex-start; 
     }
 
+    .peles-horizontal {
+        display: block;
+    }
 
-    .title-peles {
-        top: -10px;
-        left: -12px;
-    }
-    
-    .description {
-        top: 380px;
-        left: 12px;
-        
-    }
-    
-    .horizontal-peles {
-        display: block; 
-}
-}
+  }

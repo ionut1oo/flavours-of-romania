@@ -1,72 +1,33 @@
-.cemetery-title {
-        position: absolute;
-        bottom: -75px;
-        right: 200px;
-        font-weight: 700;
+.cemetery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -555px;
 }
+
+.cemetery-title {
+    font-weight: 700;
+} 
 
 .cemetery {
-    position:absolute;
-    top: 110%;
-    right: 150px;
-    height: 200px;
+    height: 300px;
     width: 300px;
-    margin: 15px 15px;
+    border: 5px solid black;
+    margin: 10px 0;
 }
 
 .cemetery-description {
-    position: relative;
-    bottom: 850px;
-    left: 895px;
+    margin-right: -5rem;
 }
 
-.cemetery-vertical {
-    border-left: 1.5px solid black;
-    height: 500px;
-    position: absolute;
-    right: 7%;
-    top: 102%;
-    margin-left: -3px;
-
-
-}
-
-.cemetery-hr-top {
-    display: none;
-}
-
-@media screen and (max-width: 480px) {
-    .cemetery-vertical {
-        display: none;
+ @media screen and (max-width: 767px) {
+    .cemetery-container {
+        margin-top: 0;
+        align-items: flex-start;
     }
 
-    .cemetery {
-        top: 535%;
-        width: 250px;
-        height: 200px;
-        left: 53px;
+    .cemetery-description {
+        margin-right: 0;
     }
 
-    .cemetery-title {
-        top: 530%;
-        right: 125px;
-    }
-
-    
-.cemetery-description {
-    position: absolute;
-    top: 575%;
-    left: 28px;
-}
-
-.cemetery-hr-top {
-    display: block;
-    position: relative;
-
-}
-
-.cemetery-hr-top {
-    top: 2250px;
-}
-    
-}
+ }

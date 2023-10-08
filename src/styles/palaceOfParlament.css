@@ -1,67 +1,40 @@
-.parlament-title {
-    position: relative;
-    bottom: 242px;
-    left: 360px;
-    font-weight: 700;
+.parlament-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -520px;
 }
+
+.parlament-title {
+    font-weight: 700;
+} 
 
 .parlament {
-    position: relative;
-    bottom: 635px;
-    left: 360px;
-    height: 350px;
-    width: 500px;
-    border: solid 3px black;
+    height: 300px;
+    width: 400px;
+    border: 5px solid black;
+    margin: 10px 0;
 }
 
-.parlament-vert-r {
-    border-left: 1.5px solid black;
-    height: 500px;
-    position: absolute;
-    bottom: -520px;
-    left: 65%;
-}
-
-.parlament-description {
-    position: relative;
-    bottom: 600px;
-    left: 360px;
-}
-
-.horizontal-parlament {
+.parlament-horizontal {
     display: none;
 }
 
-@media screen and (max-width: 480px) {
-    .parlament-vert-r {
-        display: none;
-    }
-    
+@media screen and (max-width: 767px) {
     .parlament {
-        position: absolute;
-        bottom: -355%;
-        left: 25px;
-        width: 320px;
-        height: 300px;
+        width: 300px;
+        margin-bottom: 20px;
     }
 
-    .parlament-title {
-        position: absolute;
-        bottom: -365%; 
-        left: 20px;  
+    .parlament-container {
+        margin-top: 0;
+        align-items: flex-start;
     }
 
-    .parlament-description {
-        position: absolute;
-        bottom: -400%; 
-        left: 30px;  
+    
+    .parlament-horizontal {
+       display: block;
     }
 
-    .horizontal-parlament {
-        display: block;
-        position: relative;
-        bottom: -1500px;
 
-    }
-
-}
+} 

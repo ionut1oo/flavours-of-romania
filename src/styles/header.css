@@ -1,44 +1,34 @@
+.header-title, pre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .flag {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    top: 20px;
-    left: 20px;
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
 }
 
 h1 {
-    position: relative;
-    left: 35%;
-    bottom: 30px;
-    font-weight:900;
+    font-weight: 700;
+    margin-top: 3px;
 }
 
 pre {
-    position: relative;
-    bottom: 60px;
-    left: 34.5%;
+    margin-right: 70px;
 
 }
 
-.horizontal-bottom {
-    position: relative;
-    bottom: 50px;
-}
 
 @media screen and (max-width: 767px) {
+    .header-title, pre {
+        margin-right: 15px;
+    }
+
     h1 {
-        position: relative;
-        left: -10px;
+        margin-top: 13px;
     }
-
-    pre {
-        position: relative;
-        left: -22px;
-    }
-
-    .flag {
-        position: relative;
-        left: 70px;
-        width: 90px;
-    }
+    
 }

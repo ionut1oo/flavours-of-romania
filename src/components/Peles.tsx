@@ -4,15 +4,14 @@ import '../styles/peles.css';
 
 const Peles = () => {
   return (
-    <Container>
+    <Container className='peles-container'>
        <img className='peles-castel' src='imgs/peles.jpg' alt='Peles Castel' /> 
+        <h3 className='title-peles'> Peles Castel </h3>
        <div className='description'> 
-         <h3 className='title-peles'> Peles Castel </h3>
-         <p> Built as the summer residence of the kings of Romania, the building  is <br /> currently owned by the Royal Family of Romania and houses the Peleș <br /> National Museum. </p>
+       <p> Built as the summer residence of the kings of Romania, the building  is <br /> currently owned by the Royal Family of Romania and houses the Peleș <br /> National Museum. </p>
          <p> Peleș Castle is a palace in Sinaia, built between 1873 and 1914. </p>
-         <hr className='horizontal-peles'/>
+         <hr className='peles-horizontal'/>
        </div>
-       <span className='vertical-line'></span>
     </Container>
   )
 }

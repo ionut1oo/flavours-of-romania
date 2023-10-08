@@ -6,9 +6,12 @@ const Header = () => {
     return (
         <Container>
           <hr /> <hr />
-          <h1> Flavours of <img className='flag' src='imgs/romania.jpg' alt='Romania' /> </h1>
+          <div className='header-title'>
+          <h1> Flavours of </h1>
+          <img className='flag' src='imgs/romania.jpg' alt='Romania' />
+          </div>
           <pre> Best atractions from Romania </pre>
-          <hr className='horizontal-bottom'/> <hr className='horizontal-bottom' />
+          <hr /> <hr />
       </Container>
     )
 }
