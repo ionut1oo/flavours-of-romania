@@ -21,6 +21,10 @@
     margin-right: -5rem;
 }
 
+.corvinilor-horizontal {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .corvinilor-container {
         margin-top: 0;
@@ -29,6 +33,10 @@
 
     .corvinilor-description {
         margin-right: 0;
+    }
+
+    .corvinilor-horizontal {
+        display: block;
     }
     
 
@@ -40,4 +48,5 @@
         align-items: flex-start;
         margin-top: 2rem;
     }
+
 }

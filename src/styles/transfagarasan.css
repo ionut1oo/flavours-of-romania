@@ -19,8 +19,12 @@
   display: none;
 }
 
+.transf-horizontal-botttom {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
-  .transfagarasan-horizont-top {
+  .transfagarasan-horizont-top, .transf-horizontal-botttom {
      display: block;
   }
 
