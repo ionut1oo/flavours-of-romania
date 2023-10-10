@@ -12,13 +12,13 @@ import Cemetery from './Cemetery';
 const App = () => {
   return (
     <Container>
-       <Header />
-       <Bran />
-       <Peles />
-       <Corvinilor />
-       <Transfagarasan />
-       <PalaceOfParlament />
-       <Cemetery />
+        <Header />
+        <Bran />
+        <Peles />
+        <Corvinilor />
+        <Transfagarasan />
+        <PalaceOfParlament />
+        <Cemetery />
     </Container>
   );
 }
