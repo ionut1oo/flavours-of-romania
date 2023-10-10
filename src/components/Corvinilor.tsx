@@ -12,7 +12,7 @@ const Corvinilor = () => {
                <p> Corvinilor Castle is the medieval fortress of Hunedoara, <br /> one of the most important monuments of Gothic <br /> architecture in Romania. </p>
                <p> It is considered one of the most beautiful castles <br /> in the  world, being located in the top 10 fairytale <br /> destinations in Europe. </p>
                <hr className='corvinilor-horizontal'/>
-           </div>
+            </div>
            <hr />
 
         </Container>
