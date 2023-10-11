@@ -7,6 +7,7 @@ import Corvinilor from './Corvinilor';
 import Transfagarasan from './Transfagarasan';
 import PalaceOfParlament from './CassaPoporului';
 import Cemetery from './Cemetery';
+import Footer from './Footer';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Transfagarasan />
         <PalaceOfParlament />
         <Cemetery />
+        <Footer />
     </Container>
   );
 }
